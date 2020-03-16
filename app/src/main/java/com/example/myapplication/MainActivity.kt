@@ -2,10 +2,12 @@ package com.example.myapplication
 
 import android.content.Intent
 import android.os.Bundle
+import android.provider.MediaStore
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import com.google.android.youtube.player.YouTubeStandalonePlayer
 import kotlinx.android.synthetic.main.kliens_main.*
 
 import kotlinx.android.synthetic.main.main.*
@@ -22,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         button_kliens.setOnClickListener {
             startActivity(Intent(this,Client_Choose::class.java))
         }
+
 
 
     }
