@@ -9,11 +9,15 @@
     tools:context=".Server_withName">
 
     <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:id="@+id/youtube_player_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         app:videoId="p32b5nNq1zw"
-        app:autoPlay="true"
+        app:autoPlay="false"
+        app:showFullScreenButton="false" />
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="qzcGfN9S_QY"
+        app:autoPlay="false"
         app:showFullScreenButton="false" />
 </LinearLayout>
